@@ -1,0 +1,33 @@
+body {
+  background-color: lightgray;
+  font-weight: 500;
+}
+
+.nav-container .nav {
+  display: flex;
+  background-color: lightblue;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.red-area {
+  background-color: lightcoral;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
