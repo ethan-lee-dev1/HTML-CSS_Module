@@ -1,0 +1,19 @@
+img {
+  height: 120px;
+  width: 120px;
+}
+
+.middle-area {
+  background-color: lightgray;
+  height: 50vh;
+}
+
+footer {
+  background-color: gray;
+  height: 50vh;
+  text-align: center;
+  color: white;
+}
+
+.container {
+}
