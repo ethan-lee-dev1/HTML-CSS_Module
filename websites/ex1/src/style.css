@@ -6,7 +6,7 @@ body {
 .nav-container .nav {
   display: flex;
   background-color: lightblue;
-  margin: 20px;
+  margin: 30px;
   border-radius: 15px;
   padding: 20px;
   outline-style: solid;
@@ -18,16 +18,53 @@ body {
   margin: 5px;
 }
 
+th {
+  font-weight: bold;
+}
+
 .red-area {
   background-color: lightcoral;
-  margin: 20px;
+  margin: 30px;
   border-radius: 15px;
   padding: 20px;
   outline-style: solid;
   outline-width: thin;
+  height: 200px;
 }
 
-.table {
+.table,
+th,
+td {
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: large;
+  height: 2.5em;
+}
+
+td {
+  border: 1px solid white;
+}
+
+th {
+  background-color: white;
+}
+
+.check-box {
+  background-color: lemonchiffon;
+  margin: 30px;
+  border-radius: 15px;
+  padding: 10px;
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.footer {
+  background-color: lightseagreen;
+  margin: 30px;
+  border-radius: 15px;
+  padding: 20px;
+  outline-style: solid;
+  outline-width: thin;
 }
