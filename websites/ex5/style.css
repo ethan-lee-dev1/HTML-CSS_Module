@@ -13,10 +13,6 @@ img {
   justify-content: space-between;
 }
 
-#FAQ {
-  margin-right: 10px;
-}
-
 .navbar {
   display: flex;
   list-style: none;
@@ -26,32 +22,31 @@ img {
   margin-left: 4px;
 }
 
+#FAQ {
+  margin-right: 6px;
+}
+
 main {
   background-color: lightgray;
-  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foods {
+  background-color: white;
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.birds img {
+  margin: 20px;
 }
 
 footer {
   background-color: #0072e1;
   height: 20vh;
-}
-
-.middle-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.text-area {
-  margin-top: 20%;
-  font-weight: bold;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 16px;
-  text-align: center;
-  padding: 50px;
-}
-.second {
-  margin-top: 20px;
 }
 
 .footer-area {

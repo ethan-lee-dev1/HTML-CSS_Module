@@ -1,5 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .black-header {
@@ -35,7 +36,7 @@
 #trial {
   margin: 20px;
   border-radius: 26px;
-  padding: 8px;
+  padding: 12px;
   color: white;
   background-color: #d83519;
   border-style: none;
@@ -61,7 +62,7 @@
 #player {
   margin: 20px;
   border-radius: 26px;
-  padding: 8px;
+  padding: 12px;
   color: white;
   border-style: none;
   font-size: x-small;
