@@ -1,0 +1,65 @@
+.black-header {
+  background-color: black;
+}
+
+.pink-area {
+  height: 50vh;
+  background-color: #ffcdd2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d83519;
+}
+
+.blue-area {
+  height: 50vh;
+  background-color: #2941ab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1ed760;
+}
+
+#premium {
+  font-size: xx-large;
+  font-weight: 900;
+  margin: 20px;
+}
+
+#trial {
+  margin: 20px;
+  border-radius: 26px;
+  padding: 8px;
+  color: white;
+  background-color: #d83519;
+  border-style: none;
+  font-size: x-small;
+}
+
+#terms {
+  margin: 20px;
+  font-size: x-small;
+}
+
+#music {
+  font-size: xx-large;
+  font-weight: 900;
+  margin: 20px;
+}
+
+#releases {
+  margin: 20px;
+  font-size: x-small;
+}
+
+#player {
+  margin: 20px;
+  border-radius: 26px;
+  padding: 8px;
+  color: white;
+  border-style: none;
+  font-size: x-small;
+  background-color: #1ed760;
+}
