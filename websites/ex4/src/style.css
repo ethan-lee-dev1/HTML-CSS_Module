@@ -60,3 +60,8 @@ footer {
   color: lightgray;
   justify-content: space-evenly;
 }
+
+.birds {
+  height: 200px;
+  width: 200px;
+}
